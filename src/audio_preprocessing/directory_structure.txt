@@ -1,0 +1,40 @@
+'''Data sets from: https://voice.mozilla.org/en/data
+
+Directory Structure:
+
+home
+	Audio_Bank
+		Raw (temp)
+			dataset1
+			dataset2
+		Sources (v for voxforge, t for tatoeba, a at beginning means anonymous)
+			v0
+				v0-0.wav
+				v0-1.wav
+			av1
+			t0
+			t1
+		Meta
+			<ExperimentName1>
+				Train
+					train_sources.csv
+					train_mix.csv
+				Validation
+					val_sources.csv
+					val_mix.csv
+				Test
+					test_sources.csv
+					test_mix.csv
+		Log
+
+Meta File Formats:
+
+sources.csv
+s0-0
+s0-1
+
+mix.csv
+Source-1,Weight-1,Source-2,Weight-2
+s0-1,1,s0-2,3,s3-4,5
+
+# split into train/test/test, write sources.csv

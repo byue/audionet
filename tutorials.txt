@@ -1,0 +1,4 @@
+Speech representation and data exploration
+https://www.kaggle.com/davids1992/speech-representation-and-data-exploration/notebook
+Sound Classification
+http://aqibsaeed.github.io/2016-09-03-urban-sound-classification-part-1/
